@@ -1,0 +1,22 @@
+apply plugin: 'war'
+apply plugin: 'java' 
+apply plugin: 'eclipse-wtp'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+       
+    }
+}
+dependencies {
+    compile files('./src/main/java/javax.servlet-3.0.0.v201112011016.jar')
+}
+
+war{
+	 from 'WebContent'
+     destinationDir = file("build/deployable")
+	 archiveName = 'registration.war'
+
+}
