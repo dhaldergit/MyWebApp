@@ -8,7 +8,7 @@
     <description></description>
     <display-name>RegistrationController</display-name>
     <servlet-name>RegistrationController</servlet-name>
-    <servlet-class>com.candidjava.RegistrationController</servlet-class>
+    <servlet-class>main.java.RegistrationController</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>RegistrationController</servlet-name>
