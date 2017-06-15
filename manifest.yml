@@ -1,0 +1,7 @@
+applications:
+- name: RegistrationApp
+  disk_quota: 512M
+  host: regapp08961b
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
