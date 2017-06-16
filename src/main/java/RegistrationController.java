@@ -31,19 +31,11 @@ public class RegistrationController extends HttpServlet {
 		String qual = req.getParameter("qual");
 		String doj = req.getParameter("doj");
 		String proj = req.getParameter("proj");
-		String dept = req.getParameter("dept");
+	//String dept = req.getParameter("dept");
 	
-		if(name.isEmpty()||addr.isEmpty()||age.isEmpty()||qual.isEmpty()||doj.isEmpty()||proj.isEmpty()||dept.isEmpty())
-		{
-			RequestDispatcher rd = req.getRequestDispatcher("registration.jsp");
-			out.println("<font color=red>Please fill all the fields</font>");
-			rd.include(req, res);
-		}
-		else
-		{
 			RequestDispatcher rd = req.getRequestDispatcher("home.jsp");
 			rd.forward(req, res);
-		}
+	
 	}
 
 }
