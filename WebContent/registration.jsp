@@ -43,10 +43,10 @@ div.ex {
 					<td>Project name</td>
 					<td><input type="text" name="proj" /></td>
 				</tr>
-				<!-- <tr>
+				<tr>
 					<td>Department</td>
 					<td><input type="text" name="dept" /></td>
-				</tr> -->
+				</tr>
 			</table>
 			<input type="submit" value="Register" />
 		</form>

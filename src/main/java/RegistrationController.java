@@ -31,7 +31,7 @@ public class RegistrationController extends HttpServlet {
 		String qual = req.getParameter("qual");
 		String doj = req.getParameter("doj");
 		String proj = req.getParameter("proj");
-	//String dept = req.getParameter("dept");
+	String dept = req.getParameter("dept");
 	
 			RequestDispatcher rd = req.getRequestDispatcher("home.jsp");
 			rd.forward(req, res);

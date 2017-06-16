@@ -54,10 +54,10 @@ tr:nth-child(even) {
     <td>Project name</td>
     <td><%= proj %></td>
    </tr>
-    <%-- <tr>
+    <tr>
     <td>Department</td>
     <td><%= dept %></td>
-   </tr> --%>
+   </tr>
 </table>
 
 </body>
