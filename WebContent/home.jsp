@@ -47,7 +47,7 @@ tr:nth-child(even) {
     <td><%= qual %></td>
   </tr>
   <tr>
-    <td>Date of Joining</td>
+    <td>Date </td>
     <td><%= doj %></td>
    </tr>
   <tr>
