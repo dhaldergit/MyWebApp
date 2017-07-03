@@ -55,7 +55,7 @@ tr:nth-child(even) {
     <td><%= proj %></td>
    </tr>
     <tr>
-    <td>Department</td>
+    <td>Department name</td>
     <td><%= dept %></td>
    </tr>
 </table>
