@@ -3,5 +3,5 @@ applications:
   host: regapp08961b
   instances: 1
   disk_quota: 256M
-  memory: 128M
+  memory: 256M
   
