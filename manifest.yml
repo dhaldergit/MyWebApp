@@ -1,7 +1,7 @@
 applications:
 - name: RegistrationApp
   host: regapp08961b
-  instances: 1
+  instances: 2
   disk_quota: 256M
   memory: 256M
   
